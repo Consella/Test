@@ -1,0 +1,13 @@
+:root {
+  --nunito-sans:"Nunito Sans", sans-serif;
+} 
+
+body  {
+  font-family: var (--nunito-sans);
+}
+
+p {
+  font-family: var (--nunito-sans);
+  font-size: 100px;
+
+}
