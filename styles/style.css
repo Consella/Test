@@ -1,13 +1,29 @@
-:root {
-  --nunito-sans:"Nunito Sans", sans-serif;
-} 
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap'); */
 
-body  {
-  font-family: var (--nunito-sans);
+:root {
+  --nunito-sans: "Nunito Sans", Arial, sans-serif;
+  --color-default: red
+}
+
+body {
+  font-family: var(--nunito-sans); 
+  color: var(--color-default)
 }
 
 p {
-  font-family: var (--nunito-sans);
-  font-size: 100px;
+  font-size: 10px;
+}
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 20px;
+  border: 10px solid var(--color-default);
+}
+
+.normal-size {
+  box-sizing: border-box;
 
 }
